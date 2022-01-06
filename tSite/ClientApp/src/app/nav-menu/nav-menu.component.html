@@ -1,0 +1,19 @@
+<header>
+    <nav [class]="isExpanded ? 'nav-container' : 'nav-container-collapsed' " style="/*border: solid 2px yellow*/">
+        <button style="border: none; background:none;">
+            <img [class]="isExpanded ? 'toggler' : 'toggler-collapsed' "(click)="toggle()"
+                 src="../assets/icons/toggler2.png" alt=""/>
+        </button>
+        <div class="nav-sub-container">
+            <div class="row">
+                <div class="col-3" style="border-bottom: medium solid black;">
+                    <div style="margin-bottom: -0.5em"><a class="signature" [routerLink]="['/']">Zach Simopoulos</a></div>
+                    <div><a class="sub-signature" [routerLink]="['/']">Sacramento/Nashville</a></div>
+                </div>
+                <div class="col-5 d-flex align-items-end" style="border-bottom: medium solid black;">
+                    <nav-items class="d-flex justify-content-between w-75" style=" position: relative;bottom:0;"></nav-items>
+                </div>
+            </div>
+        </div>
+    </nav>
+</header>

@@ -1,0 +1,5 @@
+<div *ngFor="let item of navItems">
+    <ng-container>
+        <a style="text-decoration: none; color: black;" [routerLink]="item.linkURL"> {{item.name}} </a>
+    </ng-container>
+</div> 

@@ -1,0 +1,44 @@
+﻿<Properties StartupConfiguration="{BD26281F-B28D-48D9-BCF7-CD26CCBE8B3B}|Default">
+  <MonoDevelop.Ide.Workbench>
+    <Files>
+      <File FileName="tSite/ClientApp/src/styles.css" Line="1" Column="1" IsPinned="True" />
+      <File FileName="tSite/ClientApp/src/app/home/home.component.html" Line="13" Column="34" />
+      <File FileName="tSite/ClientApp/src/app/about-me/about-me.component.html" Line="36" Column="136" />
+      <File FileName="tSite/ClientApp/src/app/nav-menu/nav-menu.component.html" Line="7" Column="40" />
+      <File FileName="tSite/ClientApp/src/app/nav-menu/nav-menu.component.css" Line="30" Column="28" />
+      <File FileName="tSite/ClientApp/src/app/main-page-nav/sub-page-nav/spgs.ts" Line="16" Column="40" />
+      <File FileName="tSite/ClientApp/src/app/main-page-nav/mpgs.ts" Line="30" Column="4" />
+      <File FileName="tSite/ClientApp/src/app/app.module.ts" Line="49" Column="68" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Option id="ShowAllFiles" value="True" />
+          <Node name="tSite" expanded="True">
+            <Node name="tSite" expanded="True">
+              <Node name="ClientApp" expanded="True">
+                <Node name="src" expanded="True">
+                  <Node name="app" expanded="True">
+                    <Node name="app.module.ts" selected="True" />
+                  </Node>
+                  <Node name="assets" expanded="True">
+                    <Node name="icons" expanded="True" />
+                  </Node>
+                </Node>
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.tSite PreferredExecutionTarget="/Applications/Safari.app" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/sexysasquatch/Documents/Created Media/tSite/tSite/ClientApp/src/app/main-page-nav/sub-page-nav/sub-page-nav.component.ts" relfile="tSite/ClientApp/src/app/main-page-nav/sub-page-nav/sub-page-nav.component.ts" line="28" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

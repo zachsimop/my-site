@@ -1,0 +1,19 @@
+<div [class]="isExpanded ? 'spg' : 'spg-collapsed'">
+    <div class="d-flex justify-content-around w-100" style=" margin: auto; transition: 0.3s; transition-delay: 0.7s; /*border: solid 3px green*/">
+        <img src="assets/images/river1.jpg" alt="Somewhere on Mt.Tallac" style="max-width: 300px; height: auto;" />
+        <img src="assets/images/profile_1.jpg" alt="On Sentinal Dome" style="max-width: 300px; height: auto;" />
+        <img src="assets/images/yosemite_1.jpg" alt="View of some mountain in Yosemite" style="max-width: 300px; height: auto;" />
+    </div>
+    <div style ="width: 70%; margin: auto;">
+        <p [style]="isExpanded ? 'line-height: 2' : 'line-height: 3'">
+            Welcome to the my site! Although simple, its goal is to be canvas for myself. You'll find many things I think
+            about here; art, theology, philosophy, software, trail running, journals, and more. Evidently, the site is
+            under construction, and you can see what improvements are being made <strong><a href="journals/projects">in this journal</a>
+            </strong>. It's built in Angular, and I use it to understand how the framework encapsulates data and improves extensibility
+            and code resue. If you're a potential employeer, head over to <strong><a href="about-me">About Me</a></strong> for quick
+            links to LinkedIn and Git.
+            Enjoy!
+        </p>
+    </div>
+</div>
+

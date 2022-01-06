@@ -1,0 +1,49 @@
+<div [class]="isExpanded ? 'spg' : 'spg-collapsed'" style=" width: 90%; margin-left: 5%;">
+    <div class="row">
+        <!--Descprition-->
+        <div class="col">
+            <h1 style="line-height: 1;">About Me</h1>
+            <h2 style="line-height: 1;">-</h2>
+            <div id="myCarousel" class="carousel slide" data-bs-ride="carousel" style="padding-bottom: 2em;">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="assets/images/about-me.jpeg" class="d-block" style="width: 700px; height:400px;">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="" class="d-block" style="width: 700px; height:400px;">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="" class="d-block" style="width: 700px; height:400px;">
+                    </div>
+                </div>
+
+                <!--
+               <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                   <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                   <span class="visually-hidden">Previous</span>
+               </button>
+               <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                   <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                   <span class="visually-hidden">Next</span>
+               </button
+            -->
+                <!--Carousel-->
+            </div>
+        </div>
+        <div class="col m-auto w-30" [style]="isExpanded ? 'line-height: 2' : 'line-height: 3' " style="word-spacing: 1px; padding-bottom: 2em; transition: 0.3s;
+            text-align: center">
+            Hi, my name is Zach. I am a native of the Sierra Nevadas in Northern California, and am currently studying at Vanderbilt University. I'm
+            projected to graduate in two years with degrees in Religion and Computer Science (and YES, I am aware of their disparateness, haha). Like much of the
+            rest of mankind, I crave to explore the depths of my world, inside and out. There is a delight in these chasms, despite the disorientation they may bring.
+            You will find some of that exploration here, as I catalog expriences and things I learn. You will also find my external explorations, as it pertains
+            to the outdoors. I'm a runner, and these skills (along with some good friends) spur me to venture into the world around me, where I find things both beautiful
+            and frightening. 
+        </div>
+        <div class="d-flex justify-content-around m-0 w-100">
+            <a href="https://github.com/zachsimop"><img style="height: 40px; width: 40px" src="assets/icons/git.png"></a>
+            <a href="https://www.instagram.com/zacsimop/"><img style="height: 40px; width: 40px " src="assets/icons/insta" /></a>
+            <a href="https://www.linkedin.com/in/zach-simopoulos-91336b177/"><img style="height: 40px; width: 40px " src="assets/icons/linkedin.png" /></a>
+            <a href="mailto: zachary.j.simopoulos@vanderbilt.edu"><img style="height: 50px; width: 40px " src="assets/icons/mail.png" /></a>
+        </div>
+    </div>
+</div>
